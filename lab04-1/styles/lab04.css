@@ -1,0 +1,124 @@
+/*
+filename: lab04.css
+author: Perera kaito Morimoto
+created: 26/03/2026
+last modified: 26/03/2026
+description: Styling for lab04.html
+*/
+
+/* Universal selector */
+* {
+    font-family: Calibri, sans-serif;
+    color: #2F4F4F;
+}
+
+/* Page spacing */
+body {
+    margin: 20px;
+}
+
+/* Main heading */
+h1 {
+    color: purple;
+    font-size: 2em;
+    font-weight: bold;
+}
+
+/* Heading 2 */
+h2 {
+    color: rgb(0,128,128);
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+/* All headings font */
+h1, h2, h3 {
+    font-family: Arial, sans-serif;
+}
+
+/* Aside + footer */
+aside, footer {
+    font-style: italic;
+}
+
+/* Horizontal line */
+hr {
+    border: none;
+    border-top: 2px solid #2F4F4F;
+}
+
+/* Table styling */
+table, th, td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+/* Table caption */
+caption {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* ID selector */
+#images {
+    text-align: center;
+}
+
+/* Custom heading ID */
+#mainHeading {
+    color: red;
+}
+
+/* Special characters */
+.special {
+    color: darkorange;
+    font-weight: bold;
+}
+
+/* Right align table headings */
+.rightAlign {
+    text-align: right;
+}
+
+/* Navigation links */
+nav {
+    margin-bottom: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.2em 0.6em;
+    border: 4px solid #ccc;
+}
+
+/* Hover effect for menu */
+nav a:hover {
+    background-color: lightblue;
+    border-color: darkblue;
+}
+
+/* Nested list styling */
+ol ul {
+    list-style-type: square;
+}
+
+/* Hide aside on hover */
+aside:hover {
+    display: none;
+}
+
+/* Image sizing */
+img {
+    width: 120px;
+    height: auto;
+}
+
+/* General links */
+a {
+    color: #2F4F4F;
+}
